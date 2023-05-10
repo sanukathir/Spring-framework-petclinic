@@ -1,0 +1,11 @@
+version: '3.5'
+services:
+  spring-framework-petclinic:
+    image: springcommunity/spring-framework-petclinic 
+    container_name: spring-petclinic 
+    tty: true
+      #restart: unless-stopped
+    cpu_shares: 100
+    mem_limit: 524288000
+    ports:
+      - "8090:8080"
