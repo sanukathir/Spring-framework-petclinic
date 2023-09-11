@@ -50,7 +50,7 @@ variable "redshift_subnets_cidr" {
 
 variable "ami_id" {
    type = string
-   default = "ami-07315f74f3fa6a5a3" 
+   default = "ami-0df7a207adb9748c7" 
    # default = "ami-0a72af05d27b49ccb" 
 }
 
@@ -90,7 +90,7 @@ variable "user_data_base64" {
 }
 
 variable "enable_terminate_protection" {
-  default = true
+  default = false
   type    = bool
 }
 
