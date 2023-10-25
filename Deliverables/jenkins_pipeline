@@ -1,6 +1,7 @@
 pipeline{
     agent any
     tools {
+        ansible 'ansible2'
         terraform 'terraform-11'
     }
     environment {
