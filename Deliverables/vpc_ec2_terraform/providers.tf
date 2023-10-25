@@ -1,5 +1,5 @@
 provider "aws" {
-  alias = "n.virginia"
-  region = "us-east-1"
+  alias = "singapore"
+  region = "ap-southeast-1"
   version = "~> 4.0"
 }
