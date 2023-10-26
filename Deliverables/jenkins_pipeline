@@ -7,7 +7,7 @@ pipeline{
     environment {
     	AWS_ACCESS_KEY_ID = AKIA2QWNKM3SWIU2DOA3
     	AWS_SECRET_ACCESS_KEY = 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
-    	AWS_REGION = 'ap-southeast-1'
+    	AWS_REGION = 'us-east-1'
     	TF_FOLDER = '/var/lib/jenkins/workspace/terraform-ansible-prov-conf/Deliverables/vpc_ec2_terraform/'
     	ANS_FOLDER = '/var/lib/jenkins/workspace/terraform-ansible-prov-conf/Deliverables/ansible-plays/'
     }
