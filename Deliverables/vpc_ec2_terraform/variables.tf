@@ -50,7 +50,7 @@ variable "redshift_subnets_cidr" {
 
 variable "ami_id" {
    type = string
-   default = "ami-0df7a207adb9748c7" 
+   default ="ami-0fc5d935ebf8bc3bc"
    # default = "ami-0a72af05d27b49ccb" 
 }
 
