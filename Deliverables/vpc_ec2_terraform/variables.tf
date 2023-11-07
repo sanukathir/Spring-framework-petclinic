@@ -1,6 +1,6 @@
 variable "region"  {
    type = string
-   default = "us-east-1"
+   default = ""
 }
 
 
@@ -19,7 +19,7 @@ variable "environment" {
 
 variable "availability_zones" {
       type  = list(string)
-      default = ["us-east-1a", "us-east-1b", "us-east-1c"]
+      default = ["us-east-", "us-east-", "us-east-"]
 }
 
 variable "public_subnets_cidr" {
